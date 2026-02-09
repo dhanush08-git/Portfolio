@@ -1,0 +1,157 @@
+.sec1{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    gap:4rem;
+    color: white;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: greenyellow;
+}
+
+.sec-1-1{
+    margin-left: 6.25rem;
+}
+.sec-1-1 img{
+    width:400px;
+    border-radius: 50%;
+
+
+}
+
+.sec-1-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sec-1-2-1{
+    font-weight: 600;
+}
+
+.sec-1-2-3{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.25rem;
+    width: 90%;
+}
+
+.btns >:nth-child(1){
+    padding: 0.75rem 1.25rem;
+    background-color: transparent;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+}
+
+.btns >:nth-child(1):hover{
+    background-color: white;
+    color: black;
+}
+
+
+.btns >:nth-child(2){
+    padding: 0.75rem 1.25rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 500;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+
+}
+
+
+
+.btns >:nth-child(2):hover{
+    background-color: greenyellow;
+    color: black;
+    border-color: greenyellow;
+
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+}
+
+.social img{
+    width: 30px;
+    transition: all 0.3s ease;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.social img:hover{
+    transform: scale(0.9);
+}
+
+@media(max-width:1024px){
+    .sec1{
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+p{
+    text-align: center;
+    width: 70%;
+}
+.sec-1-1{
+    margin-left: 0px;
+    margin-top: 30px;
+}    
+.sec-1-1 img{
+    width: 450px;
+}
+.sec-1-2{
+    align-items: center;
+}
+}
+
+
+
+
+@media(max-width:767px){
+    .sec1{
+    flex-direction: column;
+
+
+}
+p{
+    text-align: center;
+}
+.sec-1-1 img{
+    width: 300px;
+    margin-top: 30px;
+}    
+.sec-1-2{
+    align-items: center;
+}
+}
+
+
+
+
+
+
+
+
+
